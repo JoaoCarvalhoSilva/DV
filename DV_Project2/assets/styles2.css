@@ -1,0 +1,88 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1;
+  font-weight: 400;
+  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgb(50, 50, 50);
+  background-color: #DADEDF;
+  margin: 0;
+}
+
+.box_1 {
+  width: 100%
+  height: 70%
+  display: block;
+}
+
+.box {
+  border-radius: 5px;
+  background-color: #F2F3F4;
+  margin: 10px;
+  padding: 15px;
+  box-shadow: 2px 2px 2px lightgrey;
+  box-align: center;
+}
+
+.box2 {
+  border-radius: 30px;
+  background-color: #FFCC66;
+  margin: 10px;
+  padding: 25px;
+  box-shadow: 2px 2px 2px lightgrey;
+  height: 8px
+  font-size: 3.6rem
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 300; }
+h1 { font-size: 4.5rem; line-height: 1.2;  letter-spacing: -.1rem; margin-bottom: 2rem; text-align: center; color: #636363;}
+h2 { font-size: 3.6rem; line-height: 1.25; letter-spacing: -.1rem; margin-bottom: 1.8rem; margin-top: 1.8rem;text-align: center;color: #474747;}
+h3 { font-size: 3.6rem; line-height: 1.25; letter-spacing: -.1rem; margin-bottom: 1.8rem; margin-top: 1.8rem;text-align: center;color: #474747;}
+h4 { font-size: 2.2rem; line-height: 1.35; letter-spacing: -.08rem; margin-bottom: 1.2rem; margin-top: 1.2rem;text-align: center;}
+h5 { font-size: 2.2rem; line-height: 1.5;  letter-spacing: -.05rem; margin-bottom: 0.6rem; margin-top: 0.6rem;text-align: center;}
+h6 { font-size: 1.0rem; line-height: 1.6;  letter-spacing: 0; margin-bottom: 0.75rem; margin-top: 0.75rem;text-align: center;color: #474747;}}
+
+p {
+  margin-top: 0; }
+}
+
+.examples {
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 80%;
+    height: 100%;
+}
+
+button {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-left: 70px;
+  }
+
+@media (max-width: 900px) {
+  .row {
+    display: block;
+  }
+}
